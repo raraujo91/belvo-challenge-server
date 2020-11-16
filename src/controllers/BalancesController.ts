@@ -22,7 +22,7 @@ export default class BalancesController {
                 status = 500;
             }
             
-            return response.status(400).json(error);
+            return response.status(status).json(error);
         }
     }
 }
