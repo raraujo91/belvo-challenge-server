@@ -1,0 +1,41 @@
+Arguments: 
+  /c/Users/Renan/.nvm/versions/node/v12.13.0/bin/node /usr/share/yarn/bin/yarn.js add express dotenv belvo-node
+
+PATH: 
+  /c/Users/Renan/.nvm/versions/node/v12.13.0/bin:/c/Users/Renan/.zinit/polaris/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/c/Program Files (x86)/Intel/Intel(R) Management Engine Components/iCLS/:/c/Program Files/Intel/Intel(R) Management Engine Components/iCLS/:/c/Python27/:/c/Python27/Scripts:/c/WINDOWS/system32:/c/WINDOWS:/c/WINDOWS/System32/Wbem:/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/c/WINDOWS/System32/OpenSSH/:/c/xampp/php:/c/ProgramData/ComposerSetup/bin:/c/ProgramData/chocolatey/bin:/c/Program Files/Java/jdk1.8.0_211/bin:/c/Android/SDK/platform-tools:/c/Android/SDK/tools:/c/Program Files (x86)/Intel/Intel(R) Management Engine Components/DAL:/c/Program Files/Intel/Intel(R) Management Engine Components/DAL:/c/Program Files/Git/cmd:/c/Program Files/nodejs/:/c/Program Files (x86)/Yarn/bin/:/c/Android/SDK/tools/bin:/c/Android/SDK/emulator:/c/Users/Renan/AppData/Local/Microsoft/WindowsApps:/c/Users/Renan/AppData/Local/Programs/Microsoft VS Code/bin:/c/Users/Renan/AppData/Roaming/Composer/vendor/bin:/c/Users/Renan/AppData/Local/GitHubDesktop/bin:/c/Users/Renan/AppData/Local/atom/bin:/c/tools/Cmder:/c/Users/Renan/AppData/Local/Microsoft/WindowsApps:/c/Users/Renan/AppData/Roaming/npm:/c/Users/Renan/AppData/Local/Yarn/bin:/c/Program Files/Docker Toolbox:/c/Users/Renan/AppData/Local/hyper/app-3.0.2/resources/bin:/usr/lib/jvm/java-8-openjdk-amd64/bin:/home/raraujo/Android/tools:/home/raraujo/Android/platform-tools
+
+Yarn version: 
+  1.22.4
+
+Node version: 
+  12.13.0
+
+Platform: 
+  linux x64
+
+Trace: 
+  Error: https://registry.yarnpkg.com/belvo-node: Not found
+      at Request.params.callback [as _callback] (/usr/share/yarn/lib/cli.js:66987:18)
+      at Request.self.callback (/usr/share/yarn/lib/cli.js:140748:22)
+      at Request.emit (events.js:210:5)
+      at Request.<anonymous> (/usr/share/yarn/lib/cli.js:141720:10)
+      at Request.emit (events.js:210:5)
+      at IncomingMessage.<anonymous> (/usr/share/yarn/lib/cli.js:141642:12)
+      at Object.onceWrapper (events.js:299:28)
+      at IncomingMessage.emit (events.js:215:7)
+      at endReadableNT (_stream_readable.js:1183:12)
+      at processTicksAndRejections (internal/process/task_queues.js:80:21)
+
+npm manifest: 
+  {
+    "name": "belvo-challenge-app",
+    "version": "1.0.0",
+    "main": "index.js",
+    "license": "MIT"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
